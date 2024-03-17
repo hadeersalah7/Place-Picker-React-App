@@ -48,7 +48,7 @@ function App() {
     );
     modal.current.close();
   }
-
+// this is a test
   return (
     <>
       <Modal ref={modal}>
