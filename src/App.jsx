@@ -54,8 +54,7 @@ function App() {
     setIsModalOpen(false)
     const storedIds = JSON.parse(localStorage.getItem("selectedItem")) || []
     localStorage.setItem("selectedItem", JSON.stringify(storedIds.filter((id) => id !== selectedPlace.current)))
-  }, []
-  ) 
+  }, [] ) 
   return (
     <>
       <Modal open={isModalOpen} onClose={handleRemovePlace}>
